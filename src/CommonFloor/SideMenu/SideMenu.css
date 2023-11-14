@@ -1,0 +1,30 @@
+.menuColor {
+    background-color: #9400d3;
+
+}
+.logodiv {
+    height: 80px;
+    
+    width: 20px;
+}
+.asplogo {
+    height: 80px;
+    width: 150px;
+    mix-blend-mode: lighten;
+    padding: 10px;
+
+}
+
+.SideNav {
+
+    align-self: center;
+    color: white;
+    padding: 5px;
+
+}
+.contentNavHeight {
+    height: 100px;
+}
+.textColor{
+    color: white;
+}

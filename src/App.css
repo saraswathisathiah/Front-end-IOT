@@ -1,0 +1,200 @@
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+  .backfeature {
+  padding-left: 700px;
+
+}
+
+.asplogo {
+  height: 100px;
+  width: 150px;
+  mix-blend-mode: lighten;
+  padding: 20px;
+
+}
+
+.input-group1 {
+  padding: 25px;
+}
+
+.input-group2 {
+  padding-bottom: 0px;
+}
+
+a {
+  color: purple;
+  font-weight: 500;
+
+}
+
+.div-btn-submit {
+  padding: 32px;
+
+}
+
+.btn-submit {
+  background-color: #9400d3;
+  border-radius: 10px;
+  color: white;
+  width: 280px;
+  height: 40px;
+  border: none;
+}
+
+.aaligndiv {
+  text-align: right;
+  padding-right: 20px;
+
+}
+
+.div-btn-msoft {
+  padding-top: 20px;
+  height: 30px;
+  width: 300px;
+  margin-left: 65px;
+
+
+}
+
+.btn-msoft {
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  width: 200px;
+  height: 40px;
+  border-inline-width: 0.1px;
+  border-width: 1px;
+
+}
+
+hr {
+  background-color: white;
+
+}
+
+.loginBackGround {
+  background-image: url("/public/HomeScreen.png");
+}
+
+.SideNav {
+
+  align-self: center;
+  color: white;
+  padding: 5px;
+
+}
+
+.logodiv {
+  height: 80px;
+  width: 20px;
+}
+
+.asplogo {
+  height: 80px;
+  width: 150px;
+  mix-blend-mode: lighten;
+  padding: 10px;
+
+}
+
+.contentNavHeight {
+  height: 100px;
+}
+
+.selectBorder {
+  border: none;
+  font-size: 15px;
+}
+
+.searchIcon {
+  color: #9400d3
+}
+
+.searchInput {
+
+  text-decoration-color: black;
+  border-radius: 10px;
+}
+
+.profileIcon{
+   margin-left: 100px;
+}
+ .topNav { 
+  /* padding-top: 20px; */
+margin-left: 200px;
+
+
+}
+
+.tableThColor {
+  background-color: mediumorchid;
+}
+
+.menuSample {
+  padding: 0px;
+  width:100%;
+}
+
+.topNav {
+  padding-left: 30px;
+
+}
+
+.powerConsumption {
+  height: 280px;
+
+  border: solid;
+  border-radius: 1px;
+}
+
+.circlePadding {
+  margin-left: 100px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+.backfeature {
+  padding-left: 700px;
+
+}
+ 

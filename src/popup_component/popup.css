@@ -1,0 +1,192 @@
+  .add-device-modal,.add-new-device-modal {
+   /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  /* .add-device-modal{
+    background-color: #fefefe;
+    margin: auto;
+    border-radius: 20px;
+    border: 20px solid #fefefe;
+    width: 60%; 
+  } */
+  .container-fluid{
+    padding:0% 5% 0% 5% !important;
+  }
+
+  .add-device-modal .modal-content .modal-header,.add-new-device-modal .modal-content .modal-header{
+    border-bottom: none !important;
+    display: block;
+  }
+  .add-device-modal .modal-title,.add-new-device-modal .modal-title{
+    font-size: 24px !important;
+    float: left;
+  text-align: left;
+  
+  }
+  .add-device-modal .modal-sub-title{
+    color:#757575;
+    float: left;
+  text-align: left;
+  
+  }
+
+  .add-device-modal .modal-content, .add-new-device-modal .modal-content{
+    background-color: #fefefe;
+    margin: auto;
+    border-radius: 20px;
+    border: 20px solid #fefefe;
+    width: 60%;
+  }
+  .add-new-device-modal .modal-content{
+    width:80% !important;
+  }
+  .add-new-device-modal .modal-title{
+    font-size:18px !important;
+  }
+  
+  .add-new-device-modal .label-class{
+    float: left;
+    
+    color: #757575;
+  }
+
+
+  .add-new-device-modal .col-md-12{
+    display: inline;
+  }
+
+  .modal-header .modal-title{
+    font-size:24px;
+    font-weight: bold;
+  }
+
+  .modal-body .row{
+    margin-bottom: 20px;
+  }
+
+
+  
+
+
+  /* card related css */
+
+  .card-container{
+    padding: 0% 8% 0% 8% !important;
+  }
+
+  .scanner-card-img{
+    width:50% !important;
+  }
+  .device-card-img{
+    width:75% !important;
+  }
+  
+  .card-body{
+    padding: 15% !important;
+  }
+
+  .add-device-card ,.qr-card {
+    box-shadow: 0px 0px 5px #75757566;
+    border-radius: 10px 10px 0px 0px;
+    cursor: pointer;
+  }
+
+  .add-device-card .card-header, .qr-card .card-header{
+    background-color: #8200B833;
+    border-bottom: none;
+    font-size:24px;
+    font-weight: bold;
+  }
+
+  /* end of card related css */
+
+
+
+
+  /* input fields related css */
+
+  .input-class{
+  width: 80%;
+  float: left !important;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid #70707057 ;
+  padding:5px 13px 5px 13px;
+  background-color: #fff;
+  }
+
+  .input-class:focus{
+    border: 2px solid #8347AD !important;
+  }
+
+  .textarea{
+    Height:145px;
+    width: 90% !important;
+    
+  }
+
+  select::after {
+    content: '\25BC'; /* Unicode character for a down arrow (▼) */
+    position: absolute;
+    right: 10px; /* Adjust the right position to control the arrow's spacing */
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none; /* Make the arrow unselectable */
+    color: #333; /* Color of the arrow */
+    font-size: 16px; /* Size of the arrow */
+  }
+
+  /* end of input related css */
+
+  /* button css */
+  .popup-cancel{
+    margin-top: 50px;
+    background-color: #8200B833;
+    color: #8200B8C7;
+    margin-right: 5.23% !important;
+    border: none;
+    border-radius: 20px;
+  }  
+
+  .btn-class{
+    width: 135px;
+    height: 40px;
+    opacity: 1;
+    float: right;
+  }
+
+  .cancel-button{
+      background: #fff;
+      color: #8347AD;
+      border-color: #8347AD;
+      border-radius: 5px;
+      padding:5px 2px 5px 2px;
+      margin: 25px 15px 25px 15px;
+
+  }
+  .add-button{
+    background: #8347AD;
+    color:#fff;
+    border-color: #8347AD;
+    border-radius: 5px;
+    padding:5px 2px 5px 2px;
+    margin: 25px 15px 25px 15px;
+  }
+
+  /* .device-add-cancel{
+    margin:5px 2px 5px 2px;
+  } */
+
+  /* end of button css */
+  
+  
